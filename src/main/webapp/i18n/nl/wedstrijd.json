@@ -1,0 +1,26 @@
+{
+  "hsvWedstrijdApp": {
+    "wedstrijd": {
+      "home": {
+        "title": "Wedstrijds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Wedstrijd",
+        "createOrEditLabel": "Maak of wijzig een Wedstrijd",
+        "notFound": "No Wedstrijds found"
+      },
+      "created": "A new Wedstrijd is created with identifier {{ param }}",
+      "updated": "A Wedstrijd is updated with identifier {{ param }}",
+      "deleted": "A Wedstrijd is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Wedstrijd {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Wedstrijd"
+      },
+      "id": "ID",
+      "naam": "Naam",
+      "omschrijving": "Omschrijving",
+      "datum": "Datum"
+    }
+  }
+}

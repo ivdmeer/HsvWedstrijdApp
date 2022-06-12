@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Score.
+    -->
+    <changeSet id="20220612212825-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="onderdeel_id"
+                                 baseTableName="score"
+                                 constraintName="fk_score__onderdeel_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="onderdeel"/>
+
+        <addForeignKeyConstraint baseColumnNames="niveau_id"
+                                 baseTableName="score"
+                                 constraintName="fk_score__niveau_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="niveau"/>
+
+        <addForeignKeyConstraint baseColumnNames="deelnemer_id"
+                                 baseTableName="score"
+                                 constraintName="fk_score__deelnemer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="deelnemer"/>
+    </changeSet>
+</databaseChangeLog>
