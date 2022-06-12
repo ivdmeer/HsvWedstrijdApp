@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20220612211616",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "persoon",
+  "fields": [
+    {
+      "fieldName": "naam",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "geboorteDatum",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Persoon",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "vereniging",
+      "otherEntityRelationshipName": "persoon",
+      "relationshipName": "vereniging",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "deelnemer",
+      "otherEntityRelationshipName": "persoon",
+      "relationshipName": "deelnemer",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

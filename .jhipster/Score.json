@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20220612211617",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "score",
+  "fields": [
+    {
+      "fieldName": "punten",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Score",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "onderdeel",
+      "otherEntityRelationshipName": "score",
+      "relationshipName": "onderdeel",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "niveau",
+      "otherEntityRelationshipName": "score",
+      "relationshipName": "niveau",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "deelnemer",
+      "otherEntityRelationshipName": "score",
+      "relationshipName": "deelnemer",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

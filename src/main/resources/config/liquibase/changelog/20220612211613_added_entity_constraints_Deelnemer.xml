@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Deelnemer.
+    -->
+    <changeSet id="20220612211613-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="wedstrijd_id"
+                                 baseTableName="deelnemer"
+                                 constraintName="fk_deelnemer__wedstrijd_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="wedstrijd"/>
+
+        <addForeignKeyConstraint baseColumnNames="persoon_id"
+                                 baseTableName="deelnemer"
+                                 constraintName="fk_deelnemer__persoon_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="persoon"/>
+
+        <addForeignKeyConstraint baseColumnNames="team_id"
+                                 baseTableName="deelnemer"
+                                 constraintName="fk_deelnemer__team_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="team"/>
+    </changeSet>
+</databaseChangeLog>
