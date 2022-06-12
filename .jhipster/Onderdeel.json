@@ -1,0 +1,25 @@
+{
+  "applications": "*",
+  "changelogDate": "20220612212238",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "onderdeel",
+  "fields": [
+    {
+      "fieldName": "naam",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "omschrijving",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Onderdeel",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

@@ -1,0 +1,24 @@
+{
+  "hsvWedstrijdApp": {
+    "vereniging": {
+      "home": {
+        "title": "Verenigings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Vereniging",
+        "createOrEditLabel": "Maak of wijzig een Vereniging",
+        "notFound": "No Verenigings found"
+      },
+      "created": "A new Vereniging is created with identifier {{ param }}",
+      "updated": "A Vereniging is updated with identifier {{ param }}",
+      "deleted": "A Vereniging is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Vereniging {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Vereniging"
+      },
+      "id": "ID",
+      "naam": "Naam"
+    }
+  }
+}

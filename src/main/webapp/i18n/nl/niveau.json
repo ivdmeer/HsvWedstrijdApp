@@ -1,0 +1,25 @@
+{
+  "hsvWedstrijdApp": {
+    "niveau": {
+      "home": {
+        "title": "Niveaus",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Niveau",
+        "createOrEditLabel": "Maak of wijzig een Niveau",
+        "notFound": "No Niveaus found"
+      },
+      "created": "A new Niveau is created with identifier {{ param }}",
+      "updated": "A Niveau is updated with identifier {{ param }}",
+      "deleted": "A Niveau is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Niveau {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Niveau"
+      },
+      "id": "ID",
+      "naam": "Naam",
+      "omschrijving": "Omschrijving"
+    }
+  }
+}

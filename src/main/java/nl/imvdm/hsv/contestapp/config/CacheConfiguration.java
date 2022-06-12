@@ -48,6 +48,14 @@ public class CacheConfiguration {
             createCache(cm, nl.imvdm.hsv.contestapp.domain.User.class.getName());
             createCache(cm, nl.imvdm.hsv.contestapp.domain.Authority.class.getName());
             createCache(cm, nl.imvdm.hsv.contestapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Deelnemer.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Onderdeel.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Niveau.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Persoon.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Score.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Team.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Vereniging.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Wedstrijd.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
