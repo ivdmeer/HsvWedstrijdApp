@@ -1,0 +1,58 @@
+entity Deelnemer {
+	nummer String required
+}
+entity Onderdeel {
+	naam String required,
+    omschrijving String,
+}
+
+entity Niveau {
+	naam String required,
+    omschrijving String 
+}
+
+entity Persoon {
+	naam String required,
+    geboorteDatum LocalDate required
+}
+
+entity Score {
+	punten Double required,
+}
+
+entity Team {
+	naam String required
+}
+
+entity Vereniging {
+	naam String required
+}
+
+entity Wedstrijd {
+	naam String required,
+	omschrijving String,
+    datum LocalDate required
+}
+
+
+relationship ManyToOne {
+    Deelnemer{wedstrijd(naam)} to Wedstrijd
+    Deelnemer{persoon(naam)} to Persoon
+    Deelnemer{team(naam)} to Team
+    Persoon{team(naam)} to Vereniging
+	Score{onderdeel(naam)} to Onderdeel
+    Score{niveau(naam)} to Niveau
+	Score{deelnemer(nummer)} to Deelnemer
+    Team{vereniging(naam)} to Vereniging
+}
+
+// Set pagination options
+//paginate JobHistory, Employee with infinite-scroll
+//paginate Job with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+//service all with serviceImpl except Employee, Job
+
