@@ -1,0 +1,25 @@
+{
+  "applications": "*",
+  "changelogDate": "20220612212823",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "niveau",
+  "fields": [
+    {
+      "fieldName": "naam",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "omschrijving",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Niveau",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

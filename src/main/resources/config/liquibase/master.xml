@@ -15,7 +15,19 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212821_added_entity_Deelnemer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212822_added_entity_Onderdeel.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212823_added_entity_Niveau.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212824_added_entity_Persoon.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212825_added_entity_Score.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212826_added_entity_Team.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212827_added_entity_Vereniging.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212828_added_entity_Wedstrijd.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20220612212821_added_entity_constraints_Deelnemer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212824_added_entity_constraints_Persoon.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212825_added_entity_constraints_Score.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220612212826_added_entity_constraints_Team.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
