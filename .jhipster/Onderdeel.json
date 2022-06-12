@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220612210743",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "onderdeel",
+  "fields": [
+    {
+      "fieldName": "naam",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "omschrijving",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Onderdeel",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "score",
+      "otherEntityRelationshipName": "onderdeel",
+      "relationshipName": "score",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

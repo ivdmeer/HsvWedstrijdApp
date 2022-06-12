@@ -1,0 +1,27 @@
+{
+  "hsvWedstrijdApp": {
+    "persoon": {
+      "home": {
+        "title": "Persoons",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Persoon",
+        "createOrEditLabel": "Maak of wijzig een Persoon",
+        "notFound": "No Persoons found"
+      },
+      "created": "A new Persoon is created with identifier {{ param }}",
+      "updated": "A Persoon is updated with identifier {{ param }}",
+      "deleted": "A Persoon is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Persoon {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Persoon"
+      },
+      "id": "ID",
+      "naam": "Naam",
+      "geboorteDatum": "Geboorte Datum",
+      "vereniging": "Vereniging",
+      "deelnemer": "Deelnemer"
+    }
+  }
+}

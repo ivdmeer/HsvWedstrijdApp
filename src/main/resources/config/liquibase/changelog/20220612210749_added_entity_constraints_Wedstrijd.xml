@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Wedstrijd.
+    -->
+    <changeSet id="20220612210749-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="deelnemer_id"
+                                 baseTableName="wedstrijd"
+                                 constraintName="fk_wedstrijd__deelnemer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="deelnemer"/>
+    </changeSet>
+</databaseChangeLog>
