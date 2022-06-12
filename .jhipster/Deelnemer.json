@@ -1,0 +1,43 @@
+{
+  "applications": "*",
+  "changelogDate": "20220612212506",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "deelnemer",
+  "fields": [
+    {
+      "fieldName": "nummer",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Deelnemer",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "naam",
+      "otherEntityName": "wedstrijd",
+      "otherEntityRelationshipName": "deelnemer",
+      "relationshipName": "wedstrijd",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "naam",
+      "otherEntityName": "persoon",
+      "otherEntityRelationshipName": "deelnemer",
+      "relationshipName": "persoon",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "naam",
+      "otherEntityName": "team",
+      "otherEntityRelationshipName": "deelnemer",
+      "relationshipName": "team",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
