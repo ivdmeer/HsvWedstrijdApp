@@ -1,0 +1,27 @@
+{
+  "hsvWedstrijdApp": {
+    "score": {
+      "home": {
+        "title": "Scores",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Score",
+        "createOrEditLabel": "Maak of wijzig een Score",
+        "notFound": "No Scores found"
+      },
+      "created": "A new Score is created with identifier {{ param }}",
+      "updated": "A Score is updated with identifier {{ param }}",
+      "deleted": "A Score is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Score {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Score"
+      },
+      "id": "ID",
+      "punten": "Punten",
+      "onderdeel": "Onderdeel",
+      "niveau": "Niveau",
+      "deelnemer": "Deelnemer"
+    }
+  }
+}

@@ -48,6 +48,22 @@ public class CacheConfiguration {
             createCache(cm, nl.imvdm.hsv.contestapp.domain.User.class.getName());
             createCache(cm, nl.imvdm.hsv.contestapp.domain.Authority.class.getName());
             createCache(cm, nl.imvdm.hsv.contestapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Deelnemer.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Deelnemer.class.getName() + ".wedstrijds");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Deelnemer.class.getName() + ".persoons");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Deelnemer.class.getName() + ".teams");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Onderdeel.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Niveau.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Persoon.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Persoon.class.getName() + ".verenigings");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Score.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Score.class.getName() + ".onderdeels");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Score.class.getName() + ".niveaus");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Score.class.getName() + ".deelnemers");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Team.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Team.class.getName() + ".verenigings");
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Vereniging.class.getName());
+            createCache(cm, nl.imvdm.hsv.contestapp.domain.Wedstrijd.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
