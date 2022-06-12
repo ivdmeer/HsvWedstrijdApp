@@ -1,0 +1,28 @@
+{
+  "hsvWedstrijdApp": {
+    "deelnemer": {
+      "home": {
+        "title": "Deelnemers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Deelnemer",
+        "createOrEditLabel": "Create or edit a Deelnemer",
+        "notFound": "No Deelnemers found"
+      },
+      "created": "A new Deelnemer is created with identifier {{ param }}",
+      "updated": "A Deelnemer is updated with identifier {{ param }}",
+      "deleted": "A Deelnemer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Deelnemer {{ id }}?"
+      },
+      "detail": {
+        "title": "Deelnemer"
+      },
+      "id": "ID",
+      "nummer": "Nummer",
+      "wedstrijd": "Wedstrijd",
+      "persoon": "Persoon",
+      "team": "Team",
+      "score": "Score"
+    }
+  }
+}

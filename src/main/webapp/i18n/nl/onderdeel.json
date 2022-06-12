@@ -1,0 +1,26 @@
+{
+  "hsvWedstrijdApp": {
+    "onderdeel": {
+      "home": {
+        "title": "Onderdeels",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Onderdeel",
+        "createOrEditLabel": "Maak of wijzig een Onderdeel",
+        "notFound": "No Onderdeels found"
+      },
+      "created": "A new Onderdeel is created with identifier {{ param }}",
+      "updated": "A Onderdeel is updated with identifier {{ param }}",
+      "deleted": "A Onderdeel is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Onderdeel {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Onderdeel"
+      },
+      "id": "ID",
+      "naam": "Naam",
+      "omschrijving": "Omschrijving",
+      "score": "Score"
+    }
+  }
+}
